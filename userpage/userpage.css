@@ -15,30 +15,44 @@ nicht kopiert und auch nicht diktiert.
 url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 body{
-    font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 	text-align: center;
-	background-color: grey;
+	background-color: #ffccba;
+}
+
+
+hr {
+	border: 1px #ffe8e0 dashed;
+}
+
+h1, h2 {
+	font-family: Courier New;
+}
+
+ul {
+	padding: 0;
 }
 
 li{
 	list-style-type: none;	
 }
 
-a:link{
-	color: black;
+a:link {
+	color: #ffb296;
 	text-decoration: none;
 	}
 	
 a:visited {
-	color: lightgrey;
+	color: #ff8559;
 	}
 	
 a:hover {
-	color: lightgrey;
+	color: #ff8559;
 	text-decoration: underline;
+	cursor: grab;
 	}
 	
 a:active {
-	color: white;
-	cursor:wait;
+	color: #ffffff;
+	cursor: grabbing;
 	}
